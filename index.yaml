@@ -3,6 +3,21 @@ entries:
   example-v2:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-04-01T10:02:32.788306221Z"
+    description: A Helm chart for Kubernetes
+    digest: d8b503715935921744fd33a72c7ca672bcce0ba569ac1cfbc4aefab8ce9daf0d
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: example-v2
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/alin999/helm-charts-demo/releases/download/example-v2-0.2.13/example-v2-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-03-31T18:39:56.882311786Z"
     description: A Helm chart for Kubernetes
     digest: f9673144f8cba4628f889130fccdb3b7bb6d4683916b276d2dee6ec1c75592cb
@@ -76,4 +91,4 @@ entries:
     urls:
     - https://github.com/alin999/helm-charts-demo/releases/download/example-v2-0.2.8/example-v2-0.2.8.tgz
     version: 0.2.8
-generated: "2022-03-31T18:39:56.882426787Z"
+generated: "2022-04-01T10:02:32.788334421Z"

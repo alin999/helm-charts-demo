@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deploy-test-13
+  name: deploy-test-14-{{ .Release.Name }}
   labels:
 {{ include "example.labels" . | indent 4 }}
 spec:
